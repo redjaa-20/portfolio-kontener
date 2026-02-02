@@ -101,6 +101,11 @@ export function LandingView() {
                 className="h-11 text-base rounded-full px-6"
               >
                 Get Started
+                <HugeiconsIcon
+                  icon={ArrowUpRight01Icon}
+                  className="size-5"
+                  // strokeWidth={2}
+                />
               </Button>
             </div>
           </div>
@@ -152,17 +157,28 @@ export function LandingView() {
           </div>
         </section>
       </main>
-      <footer className="bg-foreground rounded-tl-xl rounded-tr-xl px-5 pb-5">
+      <footer className="bg-foreground rounded-tl-2xl rounded-tr-2xl px-5 pb-5">
         <div className="w-full max-w-3xl mx-auto flex flex-col items-center text-background text-center py-20">
           <h1 className="text-6xl leading-tight mb-5">
             Ready to Move Smarter?
             <br />
             Let's Ship With Confidence.
           </h1>
-          <p className="text-xl leading-relaxed">
+          <p className="text-xl leading-relaxed mb-8">
             The fastest way to get your goods from point A to B. Reliable global
             shipping tailored to your business needs.
           </p>
+          <Button
+            variant="secondary"
+            className="h-12 bg-orange-500 text-white text-base rounded-full px-6"
+          >
+            Get Started
+            <HugeiconsIcon
+              icon={ArrowUpRight01Icon}
+              className="size-5"
+              strokeWidth={2}
+            />
+          </Button>
         </div>
         <div className="relative w-full h-150 rounded-3xl overflow-hidden">
           <Image
@@ -201,8 +217,8 @@ export function LandingView() {
                 <div className="flex flex-col">
                   <h5 className="font-medium mb-3">Contact</h5>
                   <div className="flex flex-col gap-y-2 text-muted-foreground">
-                    <span>Jl. Tadulako</span>
-                    <span>Tolitoli, Sulawesi Tengah</span>
+                    <span>Jl. Sukacita</span>
+                    <span>Jakarta, Indonesia</span>
                     <span>info@kontener.com</span>
                     <span>+62 812 3456 7890</span>
                   </div>
